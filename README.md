@@ -37,6 +37,8 @@ Make sure your Android device is connected to your PC before running the above c
 3. Enable adb over TCP/IP on your device: `adb tcpip 5555`.
 4. Connect to your device: `adb connect DEVICE_IP:5555` (replace `DEVICE_IP` with your device's IP address).
 5. Unplug your device.
-6. Run scrcpy as usual.
+6. Run `scrcpy -m 1024 --max-fps=25` as usual.
+
+
 
 To switch back to USB mode: `adb usb`.
