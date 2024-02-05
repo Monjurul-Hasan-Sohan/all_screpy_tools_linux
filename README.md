@@ -12,9 +12,6 @@ sudo apt install scrcpy
 
 For more information and the latest updates, you can visit the [SCRCPY GitHub repository](https://github.com/Genymobile/scrcpy).
 
-
-# Installing Dependencies On the PC
-
 1. Install Android tools (adb) on your PC:
 
     ```bash
